@@ -1,6 +1,6 @@
 ---
 
-# Homelab that runs Active Directory with 1000+ generated users
+# Homelab that sets up Active Directory on VirtualBox and simulates 1000+ generated users on a private network via PowerShell script
 
 ## Table of contents
 
@@ -8,7 +8,6 @@
 - [[01 - Walkthrough]]
 - [[02 - Troubleshooting-Log]]
 
----
 
 ---
 
