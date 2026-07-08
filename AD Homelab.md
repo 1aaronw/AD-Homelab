@@ -103,7 +103,7 @@ Now, we can sign out and log back in as our new admin account!
 
 - **Symptom:** I initially couldn't successfully log onto my admin account as it notified that my account was disabled.![is1_1.png](Images/is1_1.png)
 - **What I tried:** 
-1.  I went to my user's properties and checked `Unlock account`![is1_2](Images/is1_2.png)
+1.  I went to my user's properties and checked `Unlock account` ![is1_2](Images/is1_2.png)
 2. I went back onto the built-in administrator account and searched for my username in Active Directory Users and Computers to see if this was indeed disabled. After finding my account, I went to my user's properties and enabled the account. 2.![is1_3.png](Images/is1_3.png)
 - **Root cause:** The account was disabled from the start
 - **Fix:** Enabling the specific user account via Find Users, Contacts, and Groups
@@ -119,6 +119,7 @@ In server manager, we use Add Roles and Features to select Remote Access in Serv
 After installed, we move onto Routing and Remote Access via the tools section
 ![ras3.png](Images/ras3.png)
 
+
 In here, we can configure the DC to use NAT
 ![ras4.png](Images/ras4.png)
 
@@ -132,6 +133,7 @@ This will be done through the Add Roles and Features Wizard once again and selec
 We now have DHCP as a tool, so access it and configure IPv4 to have a new scope, and assign the IP addresses based on the DHCP section of our diagram
 ![dhcp2.png](Images/dhcp2.png)
 ![dhcp3.png](Images/dhcp3.png)
+
 
 >Accidentally mistyped IP address, see Issue #2
 ![dhcp4.png](Images/dhcp4.png)
@@ -198,6 +200,7 @@ When on the Windows 11 setup, press Shift + F10 and type into ```OOBE\BYPASSNRO`
 ![cl4.png](Images/cl4.png)
 
 Name the PC user and proceed with the setup while disabling optional features
+
 
 Upon logging into the client account, we can ping `mydomain.com` and see that all packets were sent, indicating that we successfully communicated with the internet
 ![cl5.png](Images/cl5.png)
