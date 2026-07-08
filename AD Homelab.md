@@ -103,7 +103,7 @@ Now, we can sign out and log back in as our new admin account!
 
 - **Symptom:** I initially couldn't successfully log onto my admin account as it notified that my account was disabled.![is1_1.png](Images/is1_1.png)
 - **What I tried:** 
-1.  I went to my user's properties and checked `Unlock account` ![is1_2](Images/is1_2.png)
+1.  I went to my user's properties and checked `Unlock account` ![is1_2|669](Images/is1_2.png)
 2. I went back onto the built-in administrator account and searched for my username in Active Directory Users and Computers to see if this was indeed disabled. After finding my account, I went to my user's properties and enabled the account. 2.![is1_3.png](Images/is1_3.png)
 - **Root cause:** The account was disabled from the start
 - **Fix:** Enabling the specific user account via Find Users, Contacts, and Groups
@@ -239,7 +239,7 @@ Also, we can now log in as a user from mydomain. For instance, I can log in as m
 
 - **Symptom:** I initially couldn't successfully log onto my admin account as it notified that my account was disabled.![is1_1.png](Images/is1_1.png)
 - **What I tried:** 
-1.  I went to my user's properties and checked `Unlock account`![is1_2.png](Images/is1_2.png)
+1.  I went to my user's properties and checked `Unlock account`![is1_2.png|669](Images/is1_2.png)
 2. I went back onto the built-in administrator account and searched for my username in Active Directory Users and Computers to see if this was indeed disabled. After finding my account, I went to my user's properties and enabled the account. 2.![is1_3.png](Images/is1_3.png)
 - **Root cause:** The account was disabled from the start
 - **Fix:** Enabling the specific user account via Find Users, Contacts, and Groups
