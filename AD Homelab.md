@@ -123,6 +123,8 @@ After installed, we move onto Routing and Remote Access via the tools section
 
 
 In here, we can configure the DC to use NAT
+
+
 ![ras4.png](Images/ras4.png)
 
 ## DHCP Configuration
@@ -136,15 +138,15 @@ We now have DHCP as a tool, so access it and configure IPv4 to have a new scope,
 ![dhcp2.png](Images/dhcp2.png)
 ![dhcp3.png](Images/dhcp3.png)
 
-
 >Accidentally mistyped IP address, see Issue #2
+
 ![dhcp4.png](Images/dhcp4.png)
 
 I finished with the new scope wizard, then authorized dc.mydomain.com so that the IPv4 can go online 
 ![dhcp5.png](Images/dhcp5.png)
 
 Additionally, I disabled the Internet Explorer Enhanced Security Configuration in Sever Manager's local server settings as to be able to browse the internet through the domain controller 
-![dhcp6.png](dhcp6.png)
+![dhcp6.png](Images/dhcp6.png)
 
 ## PowerShell Script
 
@@ -205,6 +207,8 @@ Name the PC user and proceed with the setup while disabling optional features
 
 
 Upon logging into the client account, we can ping `mydomain.com` and see that all packets were sent, indicating that we successfully communicated with the internet
+
+
 ![cl5.png](Images/cl5.png)
 
 We also will rename the PC and set the domain to mydomain.com, so in the system settings from the start menu, click advanced system settings and change the name to `CLIENT1` and set the domain to `mydomain.com`
