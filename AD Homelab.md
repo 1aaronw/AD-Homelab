@@ -26,7 +26,8 @@
 
 ## Network Diagram
 
-![[ADhomelabdiagram.png]]
+![ADhomelabdiagram.png](AD-Homelab/Images/ADhomelabdiagram.png)
+
 (credit: https://www.youtube.com/watch?v=MHsI8hJmggI)
 ## IP Addressing Scheme
 
