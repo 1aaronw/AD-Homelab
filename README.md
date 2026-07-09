@@ -195,7 +195,8 @@ The only missing piece that is in our diagram to setup is our Windows 11 Client 
 
 Create a new VM for our client in VirtualBox
 
-![[cl1.png](Images/cl1.png)
+
+![cl1.png](Images/cl1.png)
 
 Make sure your network adapter settings are configured to use the internal network instead of NAT so we could get a DHCP address
 ![cl2.png](Images/cl1.png)
