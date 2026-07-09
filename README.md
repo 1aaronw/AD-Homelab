@@ -93,6 +93,7 @@ The ADMINS object will allow us to create users in it, so I will be using myself
 ![ad5.png](Images/ad5.png)
 
 We still need to give access to my user in `ADMINS` to be a Domain Admin, so I add that in my user's "Member of" properties
+
 ![ad6.png](Images/ad6.png)
 
 Now, we can sign out and log back in as our new admin account!
@@ -135,6 +136,7 @@ This will be done through the Add Roles and Features Wizard once again and selec
 
 We now have DHCP as a tool, so access it and configure IPv4 to have a new scope, and assign the IP addresses based on the DHCP section of our diagram
 ![dhcp2.png](Images/dhcp2.png)
+
 ![dhcp3.png](Images/dhcp3.png)
 
 >Accidentally mistyped IP address, see Issue #2
@@ -192,11 +194,13 @@ After running the script, we created 1000+ users as seen in our active directory
 The only missing piece that is in our diagram to setup is our Windows 11 Client that will access the virtual private network we created.
 
 Create a new VM for our client in VirtualBox
+
 ![[cl1.png](Images/cl1.png)
 
 Make sure your network adapter settings are configured to use the internal network instead of NAT so we could get a DHCP address
 ![cl2.png](Images/cl1.png)
 Run it, adding the Windows 11 ISO and installing Windows 11 Pro
+
 ![cl3.png](Images/cl3.png)
 
 When on the Windows 11 setup, press Shift + F10 and type into ```OOBE\BYPASSNRO``` so that you can reboot and select the "I don't have internet" option. We will not need actual internet drivers on this PC as we will be accessing internet via the DC
@@ -221,6 +225,7 @@ It shows up as a computer in our Active Directory Users and Computers
 
 Also, we can now log in as a user from mydomain. For instance, I can log in as my account on the CLIENT1 PC
 ![cl9.png](Images/cl9.png)
+
 ![cl10.png](Images/cl10.png)
 
 
